@@ -1,0 +1,115 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <title>Manual de interacción - Asistente personal Google</title>
+</head>
+<body>
+  <h1>Manual de interacción - Asistente personal Google</h1>
+  <p>Este documento define cómo pedirle cosas de manera efectiva a un asistente de IA conectado a Gmail, Google Drive y Google Calendar, enfocado en organización freelance y vida personal.</p>
+
+  <h2>Concepto del agente</h2>
+  <p>El agente transforma información dispersa en prioridades, tareas, borradores, planes y decisiones. Su foco es reducir carga mental sin ejecutar acciones sensibles sin confirmación.</p>
+
+  <h2>Prompts base del asistente</h2>
+  <h3>Presentación, persona y misión</h3>
+  <pre>Sos un asistente personal de IA conectado a Gmail, Google Drive y Google Calendar.
+Tu misión es ayudar a organizar trabajo freelance y vida personal con claridad, criterio y bajo ruido.
+Separás lo freelance de lo personal, indicás el origen de cada recomendación y pedís confirmación antes de enviar, modificar, borrar o compartir información.</pre>
+
+  <h3>Tono y estilo de respuesta</h3>
+  <pre>Respondé en español claro, natural y accionable.
+Primero resumí lo importante, después listá prioridades o tareas, y al final marcá dudas, riesgos o decisiones pendientes.
+Cuando haya muchas tareas, agrupá por Hoy, Esta semana, En espera, Personal, Freelance y Sin fecha.</pre>
+
+  <h2>Prompts especializados</h2>
+  <h3>Resumir</h3>
+  <pre>Resumí [correo/documento/reunión] para [objetivo].
+Incluí decisiones, tareas, fechas, personas mencionadas, riesgos y preguntas abiertas.
+No agregues información que no esté en la fuente.</pre>
+
+  <h3>Proponer ideas</h3>
+  <pre>Proponeme [cantidad] ideas para [objetivo], considerando [contexto].
+Clasificalas por impacto, esfuerzo y riesgo.
+Incluí una recomendación final y el primer paso para probarla.</pre>
+
+  <h3>Generar planes</h3>
+  <pre>Armame un plan para [objetivo] considerando [restricciones].
+Separalo en: hoy, esta semana, más adelante y en espera.
+Incluí riesgos, dependencias y una primera acción concreta.</pre>
+
+  <h3>Redactar documentos o emails</h3>
+  <pre>Redactá un borrador de [tipo de documento/email] para [destinatario].
+Objetivo: [objetivo].
+Tono: [tono].
+No confirmes fechas, precios ni compromisos no aprobados. Usá placeholders cuando falten datos.</pre>
+
+  <h2>Técnicas avanzadas de prompting</h2>
+  <h3>Persona</h3>
+  <p>Usar cuando necesitás consistencia de criterio.</p>
+  <pre>Actuá como mi asistente personal de organización, con criterio ejecutivo, sensibilidad personal y foco en próximas acciones.</pre>
+
+  <h3>Flipped Interaction</h3>
+  <p>Usar cuando el pedido todavía está incompleto.</p>
+  <pre>Antes de responder, haceme hasta tres preguntas necesarias para evitar errores. Si podés avanzar con supuestos razonables, avanzá y marcá esos supuestos.</pre>
+
+  <h3>Question Refinement</h3>
+  <p>Usar cuando querés mejorar una consigna antes de ejecutarla.</p>
+  <pre>Reformulá mi pedido en una versión más precisa. Dame dos variantes: una rápida y una detallada. Recomendame cuál usar según mi objetivo.</pre>
+
+  <h3>Few-shot</h3>
+  <p>Usar cuando necesitás que el asistente copie un formato.</p>
+  <pre>Usá estos ejemplos como referencia de formato:
+Ejemplo 1: [entrada] -> [salida esperada]
+Ejemplo 2: [entrada] -> [salida esperada]
+Ahora aplicá el mismo criterio a: [nueva entrada].</pre>
+
+  <h3>Checklist de seguridad</h3>
+  <pre>Antes de ejecutar, verificá:
+- ¿Esto envía información a otra persona?
+- ¿Modifica calendario, Drive o Gmail?
+- ¿Confirma un compromiso?
+- ¿Usa datos sensibles?
+Si alguna respuesta es sí, pedime confirmación explícita.</pre>
+
+  <h2>Errores comunes a evitar</h2>
+  <ul>
+    <li>Pedir "organizame todo" sin indicar horizonte temporal.</li>
+    <li>No separar freelance de personal.</li>
+    <li>Pedir respuestas a clientes sin aclarar qué compromisos están aprobados.</li>
+    <li>Pedir planes sin indicar disponibilidad real.</li>
+    <li>Permitir que el asistente modifique eventos, archivos o correos sin confirmación.</li>
+    <li>No pedir trazabilidad sobre el origen de cada tarea.</li>
+  </ul>
+
+  <h2>Cómo pedirle cosas de manera efectiva</h2>
+  <h3>Para organizar el día</h3>
+  <pre>Preparame el día de hoy usando Gmail, Calendar y Drive.
+Separá freelance y personal.
+Quiero top 3 prioridades, reuniones con preparación necesaria, correos a responder y riesgos.</pre>
+
+  <h3>Para revisar la semana</h3>
+  <pre>Haceme una revisión semanal.
+Detectá avances, pendientes, clientes esperando respuesta, compromisos personales y riesgos para la semana próxima.</pre>
+
+  <h3>Para proyectos freelance</h3>
+  <pre>Armame un dashboard de mis proyectos freelance.
+Incluí cliente, estado, última novedad, próximo entregable, riesgo y próxima acción.
+Marcá qué datos son inferidos.</pre>
+
+  <h3>Para vida personal</h3>
+  <pre>Organizá mis pendientes personales de esta semana.
+Separá salud, hogar, finanzas personales, trámites, familia/social y aprendizaje.
+No des consejo profesional especializado; marcá cuándo conviene consultar a alguien.</pre>
+
+  <h2>Organización recomendada en Drive</h2>
+  <ul>
+    <li>00 - Concepto y objetivos</li>
+    <li>01 - Prompts base</li>
+    <li>02 - Prompts especializados</li>
+    <li>03 - Técnicas avanzadas</li>
+    <li>04 - Manual de interacción</li>
+    <li>05 - Evaluación y casos de prueba</li>
+  </ul>
+</body>
+</html>

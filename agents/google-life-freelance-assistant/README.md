@@ -45,6 +45,7 @@ agents/google-life-freelance-assistant/
 ├── playbooks/
 ├── evals/
 ├── templates/
+├── drive-package/
 └── docs/
 ```
 
@@ -56,6 +57,7 @@ agents/google-life-freelance-assistant/
 - `prompts/tasks/unified-inbox-to-tasks.md`: convierte Gmail, Calendar y Drive en tareas accionables.
 - `playbooks/daily-brief.md`: rutina diaria.
 - `playbooks/weekly-review.md`: revision semanal.
+- `drive-package/`: CSV y documentos importables a Google Drive para la Etapa 2.
 
 ## Filosofia de diseno
 
@@ -64,4 +66,3 @@ agents/google-life-freelance-assistant/
 - Separar vida personal y trabajo freelance sin perder contexto.
 - Ser proactivo con organizacion, conservador con acciones externas.
 - Mantener trazabilidad: toda recomendacion debe indicar de donde sale.
-

@@ -1,0 +1,21 @@
+# Sistema operativo
+.DS_Store
+Thumbs.db
+
+# Editores
+.idea/
+.vscode/
+*.swp
+
+# Entornos y dependencias
+node_modules/
+.venv/
+venv/
+__pycache__/
+
+# Archivos temporales
+*.log
+tmp/
+dist/
+build/
+

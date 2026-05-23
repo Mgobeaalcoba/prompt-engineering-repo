@@ -1,0 +1,27 @@
+agents/google-life-freelance-assistant/drive-package/README.md
+  s_f838967e23b713::t_bf5b92b284cb74 1-16
+agents/google-life-freelance-assistant/drive-package/manual-interaccion-asistente-personal.html
+  s_f838967e23b713::t_155e74372329cc 1-115
+agents/google-life-freelance-assistant/drive-package/prompt_catalog_etapa2.csv
+  s_f838967e23b713::t_155e74372329cc 1-23
+agents/google-life-freelance-assistant/drive-package/drive-index.html
+  s_f838967e23b713::t_155e74372329cc 1-55
+agents/google-life-freelance-assistant/README.md
+  s_f838967e23b713::t_bf5b92b284cb74 48,60
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.0",
+  "base_commit_sha": "b67e16b25fa530b8013d2f83ff9af2225cb7e19b",
+  "prompts": {},
+  "sessions": {
+    "s_f838967e23b713": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "019e55ad-7d22-7423-aa4a-fd26ccfd2be0",
+        "model": "gpt-5.5"
+      },
+      "human_author": "Mariano Gobea Alcoba <mariano.gobea@mercadolibre.com>"
+    }
+  }
+}

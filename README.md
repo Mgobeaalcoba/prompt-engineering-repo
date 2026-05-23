@@ -14,6 +14,8 @@ Repositorio en espanol para organizar prompts utiles al interactuar con modelos 
 
 ```text
 .
+├── agents/
+│   └── google-life-freelance-assistant/
 ├── prompts/
 │   ├── few-shot/
 │   ├── chain-of-thought/
@@ -32,6 +34,10 @@ Repositorio en espanol para organizar prompts utiles al interactuar con modelos 
 ├── LICENSE
 └── README.md
 ```
+
+## Agentes incluidos
+
+- [Google Life & Freelance Assistant](agents/google-life-freelance-assistant/README.md): prompts para un asistente conectado a Gmail, Google Drive y Google Calendar, enfocado en organizacion de tareas freelance y vida personal.
 
 ## Como usar este repositorio
 
@@ -63,4 +69,3 @@ Cada prompt esta documentado con:
 ## Licencia
 
 Este proyecto esta disponible bajo licencia MIT. Ver [LICENSE](LICENSE).
-
